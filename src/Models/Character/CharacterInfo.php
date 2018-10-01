@@ -42,6 +42,7 @@ use Seat\Eveapi\Models\Location\CharacterOnline;
 use Seat\Eveapi\Models\Location\CharacterShip;
 use Seat\Eveapi\Models\Market\CharacterOrder;
 use Seat\Eveapi\Models\Skills\CharacterAttribute;
+use Seat\Eveapi\Models\Skills\CharacterSkillQueue;
 use Seat\Eveapi\Models\Wallet\CharacterWalletBalance;
 use Seat\Eveapi\Models\Wallet\CharacterWalletJournal;
 use Seat\Eveapi\Models\Wallet\CharacterWalletTransaction;
@@ -537,6 +538,16 @@ class CharacterInfo extends Model
     public function skillpoints()
     {
         return $this->hasOne(CharacterInfoSkill::class,
+            'character_id', 'character_id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function skillqueue()
+    {
+
+        return $this->hasMany(CharacterSkillQueue::class,
             'character_id', 'character_id');
     }
 
