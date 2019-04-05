@@ -13,6 +13,11 @@
       "Seat\\Eveapi\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Seat\\Eveapi\\Test\\": "tests/"
+    }
+  },
   "minimum-stability": "alpha",
   "prefer-stable": true,
   "require": {
@@ -21,6 +26,11 @@
     "eveseat/eseye": "~1",
     "eveseat/services": "~3",
     "doctrine/dbal": "^2.6"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.5",
+    "orchestra/database" : "~3.5",
+    "phpunit/phpunit": "~6.0"
   },
   "extra": {
     "laravel": {
