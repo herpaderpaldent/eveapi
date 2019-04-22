@@ -15,11 +15,17 @@
   },
   "minimum-stability": "alpha",
   "prefer-stable": true,
+  "repositories" : [
+    {
+      "type": "vcs",
+      "url": "https://github.com/herpaderpaldent/eveapi"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "laravel/framework": "5.5.*",
-    "herpaderpaldent/eseye": "dev-master",
-    "herpaderpaldent/services": "dev-master",
+    "eveseat/eseye": "dev-master",
+    "eveseat/services": "dev-master",
     "doctrine/dbal": "^2.6"
   },
   "extra": {
