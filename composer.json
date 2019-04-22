@@ -24,7 +24,7 @@
   "require": {
     "php": ">=7.1",
     "laravel/framework": "5.5.*",
-    "eveseat/eseye": "dev-master",
+    "eveseat/eseye": "~1",
     "eveseat/services": "dev-master",
     "doctrine/dbal": "^2.6"
   },
