@@ -18,8 +18,8 @@
   "require": {
     "php": ">=7.1",
     "laravel/framework": "5.5.*",
-    "eveseat/eseye": "~1",
-    "eveseat/services": "~3",
+    "herpaderpaldent/eseye": "dev-master",
+    "herpaderpaldent/services": "dev-master",
     "doctrine/dbal": "^2.6"
   },
   "extra": {
