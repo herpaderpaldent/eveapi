@@ -18,7 +18,7 @@
   "repositories" : [
     {
       "type": "vcs",
-      "url": "https://github.com/herpaderpaldent/eveapi"
+      "url": "https://github.com/herpaderpaldent/services"
     }
   ],
   "require": {
